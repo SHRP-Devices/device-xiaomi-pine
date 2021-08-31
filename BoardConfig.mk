@@ -69,7 +69,7 @@ BOARD_BUILD_DISABLED_VBMETAIMAGE := true
 #
 
 SHRP_PATH := device/xiaomi/pine
-SHRP_MAINTAINER := अथर्व २९५१
+SHRP_MAINTAINER := अथर्व2951
 SHRP_DEVICE_CODE := pine
 SHRP_EDL_MODE := 1
 SHRP_EXTERNAL := /external_sd

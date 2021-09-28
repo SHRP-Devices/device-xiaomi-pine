@@ -69,7 +69,7 @@ BOARD_BUILD_DISABLED_VBMETAIMAGE := true
 #
 
 SHRP_PATH := device/xiaomi/pine
-SHRP_MAINTAINER := अथर्व2951
+SHRP_MAINTAINER := Atharv2951
 SHRP_DEVICE_CODE := pine
 SHRP_EDL_MODE := 1
 SHRP_EXTERNAL := /external_sd
@@ -79,6 +79,7 @@ SHRP_FLASH := 1
 SHRP_FLASH_MAX_BRIGHTNESS := 250
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
 SHRP_REC_TYPE := SAR
+SHRP_OFFICIAL := true
 SHRP_DEVICE_TYPE := A_Only
 
 #

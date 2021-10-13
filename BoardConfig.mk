@@ -63,30 +63,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_AVB_ENABLE := false
 BOARD_BUILD_DISABLED_VBMETAIMAGE := true
 
-
-#
-# SHRP SPECIFIC FLAGS (start!)
-#
-
-SHRP_PATH := device/xiaomi/pine
-SHRP_MAINTAINER := Atharv2951
-SHRP_DEVICE_CODE := pine
-SHRP_EDL_MODE := 1
-SHRP_EXTERNAL := /external_sd
-SHRP_INTERNAL := /sdcard
-SHRP_OTG := /usb_otg
-SHRP_FLASH := 1
-SHRP_FLASH_MAX_BRIGHTNESS := 250
-SHRP_REC := /dev/block/bootdevice/by-name/recovery
-SHRP_REC_TYPE := SAR
-SHRP_OFFICIAL := true
-SHRP_DEVICE_TYPE := A_Only
-
-#
-# SHRP SPECIFIC FLAGS (end!)
-#
-
-
 # Encryption
 PLATFORM_SDK_VERSION := 28
 TW_INCLUDE_CRYPTO := true
